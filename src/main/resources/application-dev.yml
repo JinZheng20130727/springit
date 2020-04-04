@@ -1,0 +1,6 @@
+server:
+  port: 8085
+
+
+springit:
+  welcomeMsg: Hello from dev!

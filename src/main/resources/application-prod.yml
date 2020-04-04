@@ -1,0 +1,6 @@
+server:
+  port: 8088
+
+
+springit:
+  welcomeMsg: Hello from production!

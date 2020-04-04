@@ -1,0 +1,47 @@
+spring:
+  profiles:
+    active:
+      - dev
+  main:
+    banner-mode: off
+  output:
+    ansi:
+      enabled: ALWAYS
+
+
+#logging:
+#  level:
+##    root: ERROR
+#    com.jin.springit: INFO
+
+
+#info.application.name=Springit
+#info.application.description=Reddit clone using Spring Boot 2
+#info.application.version=0.0.1
+
+info:
+  application:
+    name: Springit
+    description: Reddit clone using Spring Boot 2
+    version: 0.0.1
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - '*'
+  endpoint:
+    health:
+      show-details: ALWAYS
+
+
+
+
+
+
+
+
+
+
+
