@@ -8,6 +8,22 @@ spring:
   h2:
     console:
       enabled: true
+
+#  spring.jpa.hibernate.ddl-auto=create
+#  spring.datasource.url=jdbc:mysql://localhost:3306/springit?useSSL=false
+#  spring.datasource.username=springit
+#  spring.datasource.password=password
+
+#  jpa:
+#    hibernate:
+#      ddl-auto: none
+#  datasource:
+#    url: jdbc:mysql://localhost:3308/springit?useSSL=false
+#    username: root
+#    password: password
+#    initialization-mode: ALWAYS
+
+
   profiles:
     active:
       - dev
@@ -18,10 +34,10 @@ spring:
       enabled: ALWAYS
 
 
-#logging:
-#  level:
-##    root: ERROR
-#    com.jin.springit: INFO
+logging:
+  level:
+    root: off
+    com.jin.springit: INFO
 
 info:
   application:
