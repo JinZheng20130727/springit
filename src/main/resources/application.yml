@@ -1,4 +1,13 @@
 spring:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+  datasource:
+    name: springit
+  h2:
+    console:
+      enabled: true
   profiles:
     active:
       - dev
@@ -13,11 +22,6 @@ spring:
 #  level:
 ##    root: ERROR
 #    com.jin.springit: INFO
-
-
-#info.application.name=Springit
-#info.application.description=Reddit clone using Spring Boot 2
-#info.application.version=0.0.1
 
 info:
   application:
