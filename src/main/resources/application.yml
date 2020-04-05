@@ -34,10 +34,10 @@ spring:
       enabled: ALWAYS
 
 
-logging:
-  level:
-    root: off
-    com.jin.springit: INFO
+#logging:
+#  level:
+#    root: off
+#    com.jin.springit: INFO
 
 info:
   application:
