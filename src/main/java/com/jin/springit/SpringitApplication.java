@@ -30,7 +30,7 @@ public class SpringitApplication {
 		SpringApplication.run(SpringitApplication.class, args);
 	}
 
-	@Bean
+//	@Bean
     CommandLineRunner run(LinkRepository linkRepository, CommentRepository commentRepository){
 	    return args -> {
             Link link = new Link("Getting started with spring boot 2", "https://therealdanvega.com/spring-boot-2");
